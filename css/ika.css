@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color:rgb(214, 200, 181);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color:black;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgb(125, 153, 156);
+}
+/* Experience Section */
+#Experience{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+}
+#Experience h1{
+    margin: 60px;
+    text-align: center;
+    color:rgb(106, 129, 106);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 60%;
+}
+.story{
+    padding: 5px;
+}
+.story p{
+    font-size: 1.2rem;
+    text-align:justify;
+    font-family:'Times New Roman', Times, serif;
+    margin: 50px;
+}
+/* Video Section */
+#Video{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+}
+#Video h1{
+    margin: 60px;
+    text-align: center;
+    color:rgb(106, 129, 106);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 60%;
+}
+video{
+    display: block;
+    margin: auto;
+}
+.hai{
+    padding: 10px;
+}
+.hai p{
+    font-size: 1.2rem;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    margin: 50px;
+}
